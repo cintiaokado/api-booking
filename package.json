@@ -1,0 +1,16 @@
+{
+  "name": "booking",
+  "version": "1.0.0",
+  "description": "Projeto de automação API Booking",
+  "main": "index.js",
+  "author": "Cintia Okado",
+  "license": "MIT",
+  "devDependencies": {
+    "cypress": "^13.6.2",
+    "cypress-cucumber-preprocessor": "^4.3.1"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true,
+    "step_definitions": "cypress/e2e/step_definitions"
+  }  
+}
